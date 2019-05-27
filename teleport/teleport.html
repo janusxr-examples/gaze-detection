@@ -1,0 +1,15 @@
+<FireBoxRoom>
+<Assets>
+<AssetScript src="GazeTeleport.js" />
+<AssetObject id="min1" src="Gazespherecomplex.dae" />
+<AssetObject id="rotmin1" src="Gazesphererotation.dae" />
+</Assets>
+<Room walk_speed="1.5" use_local_asset="room_plane" pos="0 0 -3" gravity="-9" run_speed="1" default_sounds="true" visible="false" >
+<Object  collision_id="cube" collision_scale="2 2 2" js_id="gazeteleportlocaton1" id="min1"  lighting="true" pos="5 0 0" scale="0.2 0.2 0.2"  />
+<Object  collision_id="cube" collision_scale="2 2 2" js_id="gazeteleportlocaton2" id="min1"  lighting="true" pos="0 0 0" scale="0.2 0.2 0.2"   />
+<Object  collision_id="cube" collision_scale="2 2 2" js_id="gazeteleportlocaton3" id="min1"  lighting="true" pos="0 0 5" scale="0.2 0.2 0.2"   />
+<Object js_id="aa" id="rotmin1" lighting="true" pos="5 0 0" scale="0.2 0.2 0.2"  rotate_deg_per_sec="50" />
+<Object js_id="a1" id="rotmin1" lighting="true" pos="0 0 0" scale="0.2 0.2 0.2"  rotate_deg_per_sec="50" />
+<Object js_id="a2" id="rotmin1" lighting="true" pos="0 0 5" scale="0.2 0.2 0.2"  rotate_deg_per_sec="50" />
+</Room>
+</FireBoxRoom>
