@@ -2,6 +2,8 @@
 
 Code samples involving gaze tracking
 
+Demo link: <https://gaze-detection.hashbase.io/>
+
 Detect
 
 ![detect](https://i.imgur.com/woC3knB.jpg)
